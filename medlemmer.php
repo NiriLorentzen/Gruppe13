@@ -54,11 +54,13 @@ include "navbar.php"
 ?>
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="no">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Medlemmer</title>
+    <link rel="icon" type="image/x-icon" href="/images/Logo.svg">
+    <link rel="stylesheet" href="stylesheet.css">
 </head>
 <body>
         <h1>Medlemmer i gruppe 21</h1>
