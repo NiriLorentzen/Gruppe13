@@ -43,7 +43,7 @@ class Members {
 
 
 $members = [
-    new Members("Eivind", "Frontend utvikler", "Går på UiA, IT og Informasjonssystemer", "images/file.svg"),
+    new Members("Eivind", "Frontend utvikler", "Går på UiA, IT og Informasjonssystemer", "images/EivindProfBilde.jpg"),
     new Members("Niri", "Frontend utvikler", "Går på UiA, IT og Informasjonssystemer", "images/file.svg"),
     new Members("William", "Frontend utvikler", "Går på UiA, IT og Informasjonssystemer", "images/file.svg"),
     new Members("Carl", "Frontend utvikler", "Går på UiA, IT og Informasjonssystemer", "images/CarlBilde.jpg"),
