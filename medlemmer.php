@@ -46,7 +46,7 @@ $members = [
     new Members("Eivind", "Frontend utvikler", "Går på UiA, IT og Informasjonssystemer", "images/file.svg"),
     new Members("Niri", "Frontend utvikler", "Går på UiA, IT og Informasjonssystemer", "images/file.svg"),
     new Members("William", "Frontend utvikler", "Går på UiA, IT og Informasjonssystemer", "images/file.svg"),
-    new Members("Carl", "Frontend utvikler", "Går på UiA, IT og Informasjonssystemer", "images/file.svg"),
+    new Members("Carl", "Frontend utvikler", "Går på UiA, IT og Informasjonssystemer", "images/CarlBilde.jpg"),
     new Members("Nicolay", "Frontend utvikler", "Går på UiA, IT og Informasjonssystemer", "images/NicolayBilde.jpg")
 ];
 
