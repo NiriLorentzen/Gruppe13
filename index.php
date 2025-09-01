@@ -14,7 +14,8 @@ include "navbar.php"
     <link rel="stylesheet" href="stylesheet.css">
 </head>
 <body>
-    <h1>Gruppe 21s nettside</h1>
+    <main>
+        <h1>Gruppe 21s nettside</h1>
         <div class="description">
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus nec nisi sit amet arcu facilisis pretium ut non nulla. 
             Ut neque ex, tempor vel bibendum laoreet, tincidunt non arcu. Nullam luctus ac lorem sit amet pharetra. 
@@ -26,6 +27,7 @@ include "navbar.php"
             Praesent pretium, arcu ut mattis maximus, augue ex bibendum mi, eu mollis est purus non dolor. Ut interdum enim id condimentum sollicitudin. Aenean imperdiet arcu ut mi pellentesque sodales. Vivamus quis tellus condimentum, facilisis metus ac, porttitor mauris.
             </p>
         </div>
+    </main>
 
 </body>
 </html>
