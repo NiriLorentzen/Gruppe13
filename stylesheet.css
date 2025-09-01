@@ -1,11 +1,18 @@
+html {
+    padding: 0;
+    margin: 0;
+}
 body {
-    background-color: #5493FC;
+    background-color: ivory;
+    padding: 0;
+    margin: 0;
+}
+body .navbar {
+    display:flex;
+    align-items: top;
 }
 .navbar {
     background-color: #0C1524;
-    border-width: 5px;
-    border-color: white;
-    border-style: solid;
     height: 4.7rem;
     display: flex;
     justify-content: space-between;
