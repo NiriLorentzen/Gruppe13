@@ -40,8 +40,7 @@ class Members {
 
 $Eivind = new members("Eivind", "Frontendutvikler", "25 år gammel og klar for arbeid");
 
-echo $Eivind->getName();
-echo $Eivind->getDescription();
+include "navbar.php"
 ?>
 
 
@@ -54,5 +53,8 @@ echo $Eivind->getDescription();
 </head>
 <body>
      <h1>Gruppe 21s nettside</h1>
+
+     
+
 </body>
 </html>
