@@ -1,6 +1,25 @@
 body {
-    background-color: #365EA1;
+    background-color: #5493FC;
 }
 .navbar {
     background-color: #0C1524;
+    border-width: 5px;
+    border-color: white;
+    border-style: solid;
+    height: 4.7rem;
+    display: flex;
+    justify-content: space-between;
+}
+.navbar a {
+    font-family: Helvetica;
+    font-size: 2rem;
+    color: ivory;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    padding-right: 1rem;
+}
+.navbar img {
+    border-right: ivory;
+    border-style: dotted;
 }
