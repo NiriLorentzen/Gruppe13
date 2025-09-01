@@ -1,45 +1,5 @@
 <?php 
 
-class Members {
-
-    private $name;
-    private $role;
-    private $description;
-
-    function __construct($name, $role, $description)
-    {
-        $this->name = $name;
-        $this->role = $role;
-        $this->description = $description;
-    }
-
-    function setName($name) {
-        $this->name = $name;
-    }
-
-    function getName() {
-        return $this->name;
-    }
-
-    function setRole($role) {
-        $this->role = $role;
-    }
-
-    function getRole() {
-        return $this->role;
-    }
-
-    function setDescription($description) {
-        $this->description = $description;
-    }
-
-    function getDescription() {
-        return $this->description;
-    }
-}
-
-$Eivind = new members("Eivind", "Frontendutvikler", "25 år gammel og klar for arbeid");
-
 include "navbar.php"
 ?>
 
