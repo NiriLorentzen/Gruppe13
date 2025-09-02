@@ -9,7 +9,49 @@ body {
     background-color: ivory;
     padding: 0;
     margin: 0;
+    background-image: url('images/3247046.jpg'); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: -1;
+}   
+
+/* Info boxes container */
+.info-boxes {
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    margin: 2rem auto;
+    max-width: 100rem;
+    flex-wrap: wrap;
 }
+
+/* Individual info box */
+.info-box {
+    background: rgba(176, 196, 222, 0.8);
+    border-radius: 1rem;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    padding: 1.5rem;
+    flex: 1 1 220px;
+    min-width: 25rem;
+    max-width: 33rem;
+    text-align: center; 
+    transition: box-shadow 0.2s;
+}
+.info-box:hover {
+    box-shadow: 0 4px 16px rgba(0,0,0,0.15);
+}
+
+.info-box h2 {
+    font-size: 1.3rem;
+    margin-bottom: 0.7rem;
+    color: #0C1524;
+}
+.info-box p {
+    font-size: 1rem;
+    color: #333;
+}
+
 .navbar {
     background-color: #0C1524;
     height: 4.7rem;
