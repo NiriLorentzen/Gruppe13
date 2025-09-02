@@ -52,7 +52,24 @@ body .navbar {
     border-radius: 0.5rem;
     border-color: #FAF6F6;
     border-width: 3px;
-    background-color: lightsteelblue
+    background-color: lightsteelblue;
+    text-align: left;
+    display: flex;
+    flex-direction: row;
+    
+}
+.medlem_instans img {
+    width:7rem;
+    height:7rem;
+    border-radius:25%;
+    object-fit:cover;
+    margin-bottom:10px;
+}
+.medlem_instans text {
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    padding-left: 1rem;
 }
 h1 {
     text-align: center;

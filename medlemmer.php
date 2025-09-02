@@ -68,9 +68,11 @@ include "navbar.php"
         <div class="medlem_oversikt">
             <?php foreach($members as $m): ?>
                 <div class="medlem_instans">
-                    <img src="<?php echo $m->getPicture(); ?>" alt="Bilde av <?php echo $m->getName(); ?>" style="width:80px;height:80px;border-radius:50%;object-fit:cover;margin-bottom:10px;">
-                    <strong><?php echo $m->getName(); ?></strong> – <?php echo $m->getRole(); ?><br>
-                    <em><?php echo $m->getDescription(); ?></em>
+                    <img src="<?php echo $m->getPicture(); ?>" alt="Bilde av <?php echo $m->getName(); ?>">
+                    <text>
+                        <p><strong><?php echo $m->getName(); ?></strong> – <?php echo $m->getRole(); ?></p>
+                        <em><?php echo $m->getDescription(); ?></em>
+                    </text>
                 </div>
             <?php endforeach; ?>
         </div>
