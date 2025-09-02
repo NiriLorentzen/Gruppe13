@@ -1,8 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+
 html {
     padding: 0;
     margin: 0;
 }
 body {
+    font-family: "Inter", sans-serif;
     background-color: ivory;
     padding: 0;
     margin: 0;
@@ -48,6 +51,7 @@ body {
     font-size: 1rem;
     color: #333;
 }
+
 .navbar {
     background-color: #0C1524;
     height: 4.7rem;
@@ -56,9 +60,9 @@ body {
     align-items: top;
 }
 .navbar a {
-    font-family: Helvetica;
+    font-family: "Inter", sans-serif;
     font-size: 2rem;
-    color: ivory;
+    color: ivory;    
     display: flex;
     align-items: center;
     text-decoration: none;
@@ -67,9 +71,8 @@ body {
     transition: color 0.3s, box-shadow 0.3s, border-color 0.3s;
 }
 .navbar a:hover {
-    color: #FFD700;
-    border-color: #354569;
-    box-shadow: 0 0 10px #354569;
+    color: #FFD700;   
+    text-decoration: underline;
     border-radius: 5px;
 }
 .navbar a.active {
