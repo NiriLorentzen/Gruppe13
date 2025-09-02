@@ -1,6 +1,6 @@
 <?php 
 
-include "navbar.php"
+include "navbar.php";
 ?>
 
 
@@ -15,7 +15,7 @@ include "navbar.php"
 </head>
 <body>
     <main>
-        <h1>Gruppe 21s nettside</h1>
+        <h1 class="title">Gruppe 21s nettside</h1>
         <div class="description">
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus nec nisi sit amet arcu facilisis pretium ut non nulla. 
             Ut neque ex, tempor vel bibendum laoreet, tincidunt non arcu. Nullam luctus ac lorem sit amet pharetra. 
