@@ -42,13 +42,13 @@ const members = [
     name: "Carl",
     role: "Frontend utvikler",
     description: "Går på UiA, IT og Informasjonssystemer",
-    picture: "images/CarlBilde.jpg"
+    picture: "images/CarlBilde.JPG"
   },
   {
     name: "Nicolay",
     role: "Frontend utvikler",
     description: "Går på UiA, IT og Informasjonssystemer",
-    picture: "images/NicolayBilde.jpg"
+    picture: "images/NicolayBilde.JPG"
   }
 ];
 
