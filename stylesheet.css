@@ -6,7 +6,7 @@ body {
     background-color: ivory;
     padding: 0;
     margin: 0;
-    background-image: url('images/3247046.jpg'); /* Or your chosen image */
+    background-image: url('images/3247046.jpg'); 
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
