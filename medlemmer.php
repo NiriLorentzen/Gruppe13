@@ -44,7 +44,7 @@ class Members {
 
 $members = [
     new Members("Eivind", "Frontend utvikler", "Går på UiA, IT og Informasjonssystemer", "images/EivindProfBilde.jpg"),
-    new Members("Niri", "Frontend utvikler", "Går på UiA, IT og Informasjonssystemer", "images/file.svg"),
+    new Members("Niri", "Frontend utvikler", "Går på UiA, IT og Informasjonssystemer", "images/logo.svg"),
     new Members("William", "Frontend utvikler", "Går på UiA, IT og Informasjonssystemer", "images/williamj.jpg"),
     new Members("Carl", "Frontend utvikler", "Går på UiA, IT og Informasjonssystemer", "images/CarlBilde.jpg"),
     new Members("Nicolay", "Frontend utvikler", "Går på UiA, IT og Informasjonssystemer", "images/NicolayBilde.jpg")
@@ -65,13 +65,15 @@ include "navbar.php"
 <body>
         <h1>Medlemmer i gruppe 21</h1>
 
-        <?php foreach($members as $m): ?>
-            <div class="medlem-box">
-                <img src="<?php echo $m->getPicture(); ?>" alt="Bilde av <?php echo $m->getName(); ?>" style="width:80px;height:80px;border-radius:50%;object-fit:cover;margin-bottom:10px;">
-                <strong><?php echo $m->getName(); ?></strong> – <?php echo $m->getRole(); ?><br>
-                <em><?php echo $m->getDescription(); ?></em>
-            </div>
-        <?php endforeach; ?>
+        <div class="medlem_oversikt">
+            <?php foreach($members as $m): ?>
+                <div class="medlem_instans">
+                    <img src="<?php echo $m->getPicture(); ?>" alt="Bilde av <?php echo $m->getName(); ?>" style="width:80px;height:80px;border-radius:50%;object-fit:cover;margin-bottom:10px;">
+                    <strong><?php echo $m->getName(); ?></strong> – <?php echo $m->getRole(); ?><br>
+                    <em><?php echo $m->getDescription(); ?></em>
+                </div>
+            <?php endforeach; ?>
+        </div>
         
 </body>
 </html>
