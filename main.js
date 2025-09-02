@@ -1,7 +1,7 @@
 // Navbar HTML as a reusable template
 const navbarHTML = `
   <div class="navbar">
-    <img src="images/Logo.svg" width="72rem" height="72rem">
+    <img src="images/Logo.svg" width="4%" height="90%">
     <a href="index.html">Hovedside</a>
     <a href="medlemmer.html">Medlemmer</a>
   </div>
@@ -61,10 +61,12 @@ function renderMembers() {
     div.className = 'medlem_instans';
     div.innerHTML = `
       <img src="${m.picture}" alt="Bilde av ${m.name}">
-      <div>
-        <p><strong>${m.name}</strong> – ${m.role}</p>
-        <em>${m.description}</em>
-      </div>
+      <text class="medlem_instans_tekst_boks">
+        <div>
+          <p><strong>${m.name}</strong> – ${m.role}</p>
+          <em>${m.description}</em>
+        </div>
+      </text>
     `;
     container.appendChild(div);
   });
