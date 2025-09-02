@@ -1,4 +1,6 @@
-
+<head>
+<link rel="stylesheet" href="stylesheet.css">
+</head>
 <div class="navbar">
     <img src="images/Logo.svg" width=75rem length=75rem>
     <a href="index.php">Hovedside</a>
