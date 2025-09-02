@@ -30,3 +30,19 @@ body .navbar {
     border-right: ivory;
     border-style: dotted;
 }
+.medlem_oversikt {
+    display: flex;
+    flex-direction: column;
+}
+.medlem_instans {
+    padding: 1rem;
+    border-style: solid;
+    border-radius: 0.5rem;
+    border-color: #FAF6F6;
+    border-width: 3px;
+    background-color: lightsteelblue
+}
+h1 {
+    text-align: center;
+    font-size: 3rem;
+}
