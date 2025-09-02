@@ -1,3 +1,5 @@
+<?php
+/*
 <head>
 <link rel="stylesheet" href="stylesheet.css">
 </head>
@@ -6,3 +8,4 @@
     <a href="index.php" class="<?php if(basename($_SERVER['PHP_SELF']) == 'index.php') echo 'active'; ?>">Hovedside</a>
     <a href="medlemmer.php" class="<?php if(basename($_SERVER['PHP_SELF']) == 'medlemmer.php') echo 'active'; ?>">Medlemmer</a>
 </div>
+*/
