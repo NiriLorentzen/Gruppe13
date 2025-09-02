@@ -34,6 +34,10 @@ body .navbar {
     box-shadow: 0 0 10px #354569;
     border-radius: 5px;
 }
+.navbar a.active {
+    color: #FFD700;
+    border-radius: 5px;
+}
 .navbar img {
     border-right: ivory;
     border-style: dotted;
