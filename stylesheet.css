@@ -26,6 +26,12 @@ body .navbar {
     text-decoration: none;
     padding-right: 1rem;
 }
+.navbar a:hover {
+    background-color: #354569;
+    color: #FFD700;
+    border-radius: 5px;
+    transition: background-color 0.2s, color 0.2s;
+}
 .navbar img {
     border-right: ivory;
     border-style: dotted;
