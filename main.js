@@ -2,7 +2,7 @@
 const navbarHTML = `
   <div class="navbar">
     <img src="images/Logo.svg" width="4%" height="90%">
-    <a href="index.html">Hovedside</a>
+    <a href="index.html">Om oss</a>
     <a href="medlemmer.html">Medlemmer</a>
   </div>
 `;
