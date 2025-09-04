@@ -67,8 +67,8 @@ function renderMembers() {
       <img src="${m.picture}" alt="Bilde av ${m.name}">
       <text class="medlem_instans_tekst_boks">
         <div>
-          <p><strong>${m.name}</strong> – ${m.role}</p>
-          <em>${m.description}</em>
+          <p><strong>${m.name}</strong> – <em>${m.role}</em></p>
+          ${m.description}
         </div>
       </text>
     `;
