@@ -40,7 +40,7 @@ const members = [
     role: "Backend utvikler",
     description: `Jeg er 25 år gammel og kommer fra Kongsberg, med stor interesse i både maskin og programvare. 
     <br> Gjennom IT-studiet har jeg tilegnet meg erfaring i frontend- og backend-utvikling, både teoretisk og praktisk. 
-    <br> Disse praktiske evnene ble utviklet med en rekke prosjekter med bruk av teknologier som: Java, C#, Python, PostgreSQL og nå også PHP.
+    <br> Evnene ble utviklet med en rekke prosjekter med bruk av teknologier som: Java, C#, Python, PostgreSQL og nå også PHP.
     <br> Å gjøre disse prosjektene har gitt meg en spesiell interesse for optimalisering av kode og programmer. 
     <br> Ettersom tidligere arbeid har vist meg både hvor viktig og interessant dette er. 
     <br> Forøvrig har jeg også god erfaring med teambygging, formidlingsevne og kreativ problemløsning fra tidligere utdanning og jobb.`,
