@@ -26,14 +26,6 @@ body {
     flex-wrap: wrap;
 }
 
-/* Individual info box */
-/* rgba(176, 196, 222, 0.8);
-    border-radius: 0.5rem;
-    border-color: #D1D5DB;
-    border-width: 2px;
-
-*/
-
 .info-box {
     border-radius: 1rem;
     border-color: #D1D5DB;
@@ -102,9 +94,9 @@ body {
     gap: 1rem;
 }
 .medlem_instans {
-    padding: 1rem;
+    padding: 0;
     border-style: solid;
-    border-radius: 0.5rem;
+    border-radius: 2.6rem;
     border-color: #D1D5DB;
     border-width: 2px;
     background-color: #ececec;
@@ -116,11 +108,11 @@ body {
     justify-content: flex-start;
 }
 .medlem_instans img {
-    width:7rem;
-    height:7rem;
+    width:10rem;
+    height:10rem;
     border-radius:25%;
     object-fit:cover;
-    margin-bottom:10px;
+    margin-bottom:0px;
     border-style: solid;
     border-width: 0.5px;
     border-color: black;
