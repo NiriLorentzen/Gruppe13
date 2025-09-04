@@ -45,12 +45,13 @@ const members = [
     linkedin: "https://www.linkedin.com/in/eivind-hovden-breivik-979241381/"
   },
   {
-    name: "William",
-    role: "Frontend utvikler",
-    description: `Jeg er en 21 år gammel student fra Drammen, jeg er interessert i cybersikkerhet, AI og utvikling. Jeg har praktisk erfaring med C#, Java, PosgreSQL med fokus på webutvikling. 
-    <br> Gjennom studiene har jeg tilegnet team-arbeid ferdigheter som smidig utvikling med Scrum og versjonskontroll med Git.
-    <br> Jeg har blitt særlig interessert i cybersikkerhet og vil gjerne utvikle ferdighetene mine innen dette feltet i fremtiden.`,
-    picture: "images/williamj.jpg"
+    name: "William Jondahl",
+    role: "Backend utvikler",
+    description: `Jeg er en 21 år gammel student fra Drammen, og er interessert i cybersikkerhet, AI og utvikling. Jeg har praktisk erfaring med C#, Java, PostgreSQL med fokus på webutvikling. 
+    <br> Gjennom studiene har jeg tilegnet team-arbeidsferdigheter som smidig utvikling med Scrum og versjonskontroll med Git.
+    <br> Jeg har blitt særlig interessert i cybersikkerhet og vil gjerne utvikle ferdighetene mine innen dette feltet.`,
+    picture: "images/williamj.jpg",
+    linkedin: "https://www.linkedin.com/in/william-jondahl-22b571382/"
   },
   {
     name: "Carl Andreas Arnegard",
