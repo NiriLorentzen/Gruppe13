@@ -28,8 +28,12 @@ const members = [
   },
   {
     name: "Eivind",
-    role: "Frontend utvikler",
-    description: "Går på UiA, IT og Informasjonssystemer",
+    role: "Backend utvikler",
+    description: `Jeg er 25 år gammel og kommer fra Kongsberg. Med stor interesse i både maskin og programvare. 
+    <br> Jeg har tilegnet nyttig erfaring i fullstack utvikling i løpet av prosjekter både gjennom IT studiet og privat. 
+    <br> Dette ble gjort med bruk av teknologi som: Java, C#, Python, PostgreSQL og nå også PHP. 
+    <br> Jeg har fått en spesiell interesse for optimalisering av programmer etter at tidligere prosjekter har vist meg hvor viktig og interessant dette virkelig er. 
+    <br> Videre har jeg også god erfaring med teambygging og formidlingsevne fra tidligere utdanning og jobb.`,
     picture: "images/EivindProfBilde.jpg"
   },
   {
