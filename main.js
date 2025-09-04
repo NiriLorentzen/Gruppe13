@@ -30,7 +30,7 @@ const members = [
     <br> Iløpet av prosjektene og innleveringer har jeg også erkjent gode erfaring med blant annet C#, Python, og Java.
     <br> Jeg trivdes godt med prosjektarbeid og gleder meg til bachelorprosjekt!
     `,
-    picture: "images/niri.jpg"
+    linkedin: "https://www.linkedin.com/in/niri-a-lorentzen-409916381/"
   },
   {
     name: "Eivind",
@@ -41,7 +41,8 @@ const members = [
     <br> Utførelse av disse prosjektene har gitt meg en spesiell interesse for optimalisering av kode og programmer. 
     <br> Ettersom tidligere arbeid har vist meg både hvor viktig, og interessant dette er. 
     <br> Forøvrig har jeg også god erfaring med teambygging, formidlingsevne og kreativ problemløsning fra tidligere utdanning og jobb.`,
-    picture: "images/EivindProfBilde.jpg"
+    picture: "images/EivindProfBilde.jpg",
+    linkedin: "https://www.linkedin.com/in/eivind-hovden-breivik-979241381/"
   },
   {
     name: "William",
@@ -49,7 +50,8 @@ const members = [
     description: `Jeg er en 21 år gammel student fra Drammen, jeg er interessert i cybersikkerhet, AI og utvikling. Jeg har praktisk erfaring med C#, Java, PosgreSQL med fokus på webutvikling. 
     <br> Gjennom studiene har jeg tilegnet team-arbeid ferdigheter som smidig utvikling med Scrum og versjonskontroll med Git.
     <br> Jeg har blitt særlig interessert i cybersikkerhet og vil gjerne utvikle ferdighetene mine innen dette feltet i fremtiden.`,
-    picture: "images/williamj.jpg"
+    picture: "images/williamj.jpg",
+    linkedin: "https://www.linkedin.com/in/william-jondahl-22b571382/"
   },
   {
     name: "Carl",
@@ -58,14 +60,16 @@ const members = [
     <br>og har erfaring med flere programmeringsspråk som Python, Java, C# og jeg har også jobbet med webutvikling ved bruk av HTML, CSS og JavaScript.
     <br>Jeg studerer nå IT og Informasjonssystemer ved Universitetet i Agder, hvor jeg har fått muligheten til å jobbe med ulike prosjekter som har styrket mine ferdigheter innen backend-utvikling. 
     <br>Etter tidligere prosjekter, har det vist seg at jeg trives best med backend-utvikling.`,
-    picture: "images/CarlBilde.JPG"
+    picture: "images/CarlBilde.JPG",
+    linkedin: "https://www.linkedin.com/in/carl-andreas-arnegard-993996214/"
   },
   {
     name: "Nicolay",
     role: "Fullstack utvikler",
     description: `Jeg er 21 år gammel og kommer fra Drammen. Jeg har funnet en stor interesse for å skape nettsider og applikasjoner igjennom ulike prosjekter i studiet.
     <br>Jeg har tidligere erfaring med HTML, CSS, Java, JavaScript, Python, C#, PostgreSQL og nå i PHP. Jeg er en person som liker å jobbe i team og har gode samarbeidsevner.`,
-    picture: "images/NicolayBilde.JPG"
+    picture: "images/NicolayBilde.JPG",
+    linkedin: "https://www.linkedin.com/in/nicolay-lehne-torp-14b62a2ba/"
   }
 ];
 
@@ -77,14 +81,17 @@ function renderMembers() {
     const div = document.createElement('div');
     div.className = 'medlem_instans';
     div.innerHTML = `
-      <img src="${m.picture}" alt="Bilde av ${m.name}">
+      <img class="Personbilde" src="${m.picture}" alt="Bilde av ${m.name}">
       <text class="medlem_instans_tekst_boks">
         <div>
           <p><strong>${m.name}</strong> – <em>${m.role}</em></p>
           ${m.description}
         </div>
       </text>
-      <text class="linkedin">Linkedin</text>
+      <a href="${m.linkedin}" target="_blank" class="linkedin">
+        <text>Linked</text>
+        <img src="images/LinkedIn_icon.svg">
+      </a>
     `;
     container.appendChild(div);
   });
