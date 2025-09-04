@@ -74,6 +74,7 @@ function renderMembers() {
           ${m.description}
         </div>
       </text>
+      <text class="linkedin">Linkedin</text>
     `;
     container.appendChild(div);
   });
