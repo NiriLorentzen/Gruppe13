@@ -107,7 +107,7 @@ body {
     flex-direction: row;
     justify-content: flex-start;
 }
-.medlem_instans img {
+.Personbilde {
     width:10rem;
     height:10rem;
     border-radius:25%;
@@ -121,10 +121,12 @@ body {
     align-self: center;
     display: flex;
     flex-direction: column;
-    padding-left: 1rem;
     width: 65%;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
+    padding: 1rem;
+    padding-right: 2rem;
+    border-color: transparent;
+    border-right: #D1D5DB;
+    border-style: dotted;
 }
 .medlem_instans p {
     margin: 0;
@@ -133,12 +135,31 @@ body {
 .medlem_instans em {
     margin-left: 0.2rem;
 }
-.linkedin {
-    color: blue;
+.kontaktinfo {
+    color: black;
+    padding-left: 1rem;
+    padding-right: 1rem;
     display: flex;
-    justify-content: center;
+    align-items: center;
     flex-direction: column;
-    padding-left: 2rem;
+    align-self: center;
+}
+.kontaktinfo a {
+    text-decoration: none;
+    color: black;
+}
+.linkedin img {
+    width: 17.5px;
+    height: 17.5px;
+}
+.linkedin {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+.tlf_mail {
+    font-size: small;
+    padding-top: 1rem;
 }
 h1 {
     text-align: center;
