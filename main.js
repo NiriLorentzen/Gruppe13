@@ -79,8 +79,8 @@ const members = [
     <br>Jeg har tidligere erfaring med HTML, CSS, Java, JavaScript, Python, C#, PostgreSQL og nå i PHP. Jeg er en person som liker å jobbe i team og har gode samarbeidsevner.`,
     picture: "images/NicolayBilde.JPG",
     linkedin: "https://www.linkedin.com/in/nicolay-lehne-torp-14b62a2ba/",
-    mail: "",
-    tlf: ""
+    mail: "lehnenicolay@gmail.com",
+    tlf: "466 26 871"
   }
 ];
 
