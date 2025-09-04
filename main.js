@@ -21,6 +21,12 @@ function injectNavbar() {
 // Members data for medlemmer.html
 const members = [
   {
+    name: "Niri",
+    role: "Prosjektleder",
+    description: "",
+    picture: "images/niri.jpg"
+  },
+  {
     name: "Eivind",
     role: "Backend utvikler",
     description: `Jeg er 25 år gammel og kommer fra Kongsberg. Med stor interesse i både maskin og programvare. 
@@ -29,12 +35,6 @@ const members = [
     <br> Jeg har fått en spesiell interesse for optimalisering av programmer etter at tidligere prosjekter har vist meg hvor viktig og interessant dette virkelig er. 
     <br> Videre har jeg også god erfaring med teambygging og formidlingsevne fra tidligere utdanning og jobb.`,
     picture: "images/EivindProfBilde.jpg"
-  },
-  {
-    name: "Niri",
-    role: "Frontend utvikler",
-    description: "Går på UiA, IT og Informasjonssystemer",
-    picture: "images/niri.jpg"
   },
   {
     name: "William",
