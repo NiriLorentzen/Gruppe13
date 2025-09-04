@@ -57,8 +57,8 @@ const members = [
     <br> Jeg har blitt særlig interessert i cybersikkerhet og vil gjerne utvikle ferdighetene mine innen dette feltet i fremtiden.`,
     picture: "images/williamj.jpg",
     linkedin: "https://www.linkedin.com/in/william-jondahl-22b571382/",
-    mail: "",
-    tlf: ""
+    mail: "williamjondahl@gmail.com",
+    tlf: "981 85 743"
   },
   {
     name: "Carl",
@@ -69,8 +69,8 @@ const members = [
     <br>Etter tidligere prosjekter, har det vist seg at jeg trives best med backend-utvikling.`,
     picture: "images/CarlBilde.JPG",
     linkedin: "https://www.linkedin.com/in/carl-andreas-arnegard-993996214/",
-    mail: "",
-    tlf: ""
+    mail: "carl.andreas.arnegard@gmail.com",
+    tlf: "994 94 801"
   },
   {
     name: "Nicolay",
