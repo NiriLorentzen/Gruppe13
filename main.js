@@ -40,7 +40,9 @@ const members = [
   {
     name: "William",
     role: "Frontend utvikler",
-    description: "Går på UiA, IT og Informasjonssystemer",
+    description: `Jeg er en 21 år gammel student fra Drammen, jeg er interessert i cybersikkerhet, AI og utvikling. Jeg har praktisk erfaring med C#, Java, PosgreSQL med fokus på webutvikling. 
+    <br> Gjennom studiene har jeg tilegnet team-arbeid ferdigheter som smidig utvikling med Scrum og versjonskontroll med Git.
+    <br> Jeg har blitt særlig interessert i cybersikkerhet og vil gjerne utvikle ferdighetene mine innen dette feltet i fremtiden.`,
     picture: "images/williamj.jpg"
   },
   {
@@ -54,8 +56,9 @@ const members = [
   },
   {
     name: "Nicolay",
-    role: "Frontend utvikler",
-    description: "Går på UiA, IT og Informasjonssystemer",
+    role: "Fullstack utvikler",
+    description: `Jeg er 21 år gammel og kommer fra Drammen. Jeg har funnet en stor interesse for å skape nettsider og applikasjoner igjennom ulike prosjekter i studiet.
+    <br>Jeg har tidligere erfaring med HTML, CSS, Java, JavaScript, Python, C#, PostgreSQL og nå i PHP. Jeg er en person som liker å jobbe i team og har gode samarbeidsevner.`,
     picture: "images/NicolayBilde.JPG"
   }
 ];
