@@ -46,8 +46,8 @@ const members = [
     <br> Forøvrig har jeg også god erfaring med teambygging, formidlingsevne og kreativ problemløsning fra tidligere utdanning og jobb.`,
     picture: "images/EivindProfBilde.jpg",
     linkedin: "https://www.linkedin.com/in/eivind-hovden-breivik-979241381/",
-    mail: "",
-    tlf: ""
+    mail: "eivind.h.breivik@gmail.com",
+    tlf: "924 25 601"
   },
   {
     name: "William",
