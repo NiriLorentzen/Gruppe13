@@ -16,7 +16,6 @@ body {
     z-index: -1;
 }   
 
-/* Info boxes container */
 .info-boxes {
     display: flex;
     gap: 2rem;
@@ -40,14 +39,13 @@ body {
     text-align: center; 
     transition: box-shadow 0.2s;
 }
-.info-box:hover {
-    box-shadow: 0 4px 16px rgba(0,0,0,0.15);
-}
-
 .info-box h2 {
     font-size: 1.3rem;
     margin-bottom: 0.7rem;
-    color: #0C1524;
+    color: #0C1524;   
+    border-color: transparent;
+    border-bottom: #D1D5DB;
+    border-style: dotted;
 }
 .info-box p {
     font-size: 1rem;
@@ -162,7 +160,7 @@ body {
     padding-top: 1rem;
 }
 h1 {
-    text-align: center;
+    text-align: center;    
     font-size: 3rem;
 }
 .picture-preview {
