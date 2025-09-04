@@ -23,7 +23,13 @@ const members = [
   {
     name: "Niri",
     role: "Prosjektleder",
-    description: "",
+    description: `Jeg kommer ifra Lillestrøm, og er 21år gammel. Jeg er lederen for gruppen, og har stor interesse for backend og frontend utvikling.
+    <br> Jeg har alltid hatt stor interesse for data og IT, og gjennom studiet har jeg fått erfaring og kunnskap innen organisering av prosjektarbeid, frontend utvikling, og backend utvikling.
+    <br> Her er det backend og databasearbeid jeg har likt mest og fått best resultater ifra, med bruk av teknologi som PostgreSQL, Docker, og Entity Framework.
+    <br> Jeg har også mye interesse for frontend, og har også drevet en del med figma for designutvikling under prosjektarbeid. 
+    <br> Iløpet av prosjektene og innleveringer har jeg også erkjent gode erfaring med blant annet C#, Python, og Java.
+    <br> Jeg trivdes godt med prosjektarbeid og gleder meg til bachelorprosjekt!
+    `,
     picture: "images/niri.jpg"
   },
   {
@@ -49,7 +55,7 @@ const members = [
     name: "Carl",
     role: "Backend utvikler",
     description: `Hei, jeg er 21 år gammel og kommer fra Drammen. Jeg har lenge vært interessert i teknologi og programmering, 
-    <br>og har erfaring med flere programmeringsspråk som Python, Java, C++ og jeg har også jobbet med webutvikling ved bruk av HTML, CSS og JavaScript.
+    <br>og har erfaring med flere programmeringsspråk som Python, Java, C# og jeg har også jobbet med webutvikling ved bruk av HTML, CSS og JavaScript.
     <br>Jeg studerer nå IT og Informasjonssystemer ved Universitetet i Agder, hvor jeg har fått muligheten til å jobbe med ulike prosjekter som har styrket mine ferdigheter innen backend-utvikling. 
     <br>Etter tidligere prosjekter, har det vist seg at jeg trives best med backend-utvikling.`,
     picture: "images/CarlBilde.JPG"
