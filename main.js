@@ -23,7 +23,7 @@ const members = [
   {
     name: "Niri",
     role: "Prosjektleder",
-    description: `Jeg kommer ifra Lillestrøm, og er 21år gammel. Jeg er lederen for gruppen, og har stor interesse for backend og frontend utvikling.
+    description: `Jeg kommer ifra Lillestrøm, og er 21 år gammel. Jeg er lederen for gruppen, og har stor interesse for backend og frontend utvikling.
     <br> Jeg har alltid hatt stor interesse for data og IT, og gjennom studiet har jeg fått erfaring og kunnskap innen organisering av prosjektarbeid, frontend utvikling, og backend utvikling.
     <br> Her er det backend og databasearbeid jeg har likt mest og fått best resultater ifra, med bruk av teknologi som PostgreSQL, Docker, og Entity Framework.
     <br> Jeg har også mye interesse for frontend, og har også drevet en del med figma for designutvikling under prosjektarbeid. 
@@ -31,7 +31,9 @@ const members = [
     <br> Jeg trivdes godt med prosjektarbeid og gleder meg til bachelorprosjekt!
     `,
     picture: "images/niri.jpg",
-    linkedin: "https://www.linkedin.com/in/niri-a-lorentzen-409916381/"
+    linkedin: "https://www.linkedin.com/in/niri-a-lorentzen-409916381/",
+    mail: "niri.lorentzen@gmail.com",
+    tlf: "917 41 899"
   },
   {
     name: "Eivind",
@@ -43,7 +45,9 @@ const members = [
     <br> Ettersom tidligere arbeid har vist meg både hvor viktig, og interessant dette er. 
     <br> Forøvrig har jeg også god erfaring med teambygging, formidlingsevne og kreativ problemløsning fra tidligere utdanning og jobb.`,
     picture: "images/EivindProfBilde.jpg",
-    linkedin: "https://www.linkedin.com/in/eivind-hovden-breivik-979241381/"
+    linkedin: "https://www.linkedin.com/in/eivind-hovden-breivik-979241381/",
+    mail: "eivind.h.breivik@gmail.com",
+    tlf: "924 25 601"
   },
   {
     name: "William",
@@ -52,7 +56,9 @@ const members = [
     <br> Gjennom studiene har jeg tilegnet team-arbeid ferdigheter som smidig utvikling med Scrum og versjonskontroll med Git.
     <br> Jeg har blitt særlig interessert i cybersikkerhet og vil gjerne utvikle ferdighetene mine innen dette feltet i fremtiden.`,
     picture: "images/williamj.jpg",
-    linkedin: "https://www.linkedin.com/in/william-jondahl-22b571382/"
+    linkedin: "https://www.linkedin.com/in/william-jondahl-22b571382/",
+    mail: "williamjondahl@gmail.com",
+    tlf: "981 85 743"
   },
   {
     name: "Carl",
@@ -62,7 +68,9 @@ const members = [
     <br>Jeg studerer nå IT og Informasjonssystemer ved Universitetet i Agder, hvor jeg har fått muligheten til å jobbe med ulike prosjekter som har styrket mine ferdigheter innen backend-utvikling. 
     <br>Etter tidligere prosjekter, har det vist seg at jeg trives best med backend-utvikling.`,
     picture: "images/CarlBilde.JPG",
-    linkedin: "https://www.linkedin.com/in/carl-andreas-arnegard-993996214/"
+    linkedin: "https://www.linkedin.com/in/carl-andreas-arnegard-993996214/",
+    mail: "carl.andreas.arnegard@gmail.com",
+    tlf: "994 94 801"
   },
   {
     name: "Nicolay",
@@ -70,7 +78,9 @@ const members = [
     description: `Jeg er 21 år gammel og kommer fra Drammen. Jeg har funnet en stor interesse for å skape nettsider og applikasjoner igjennom ulike prosjekter i studiet.
     <br>Jeg har tidligere erfaring med HTML, CSS, Java, JavaScript, Python, C#, PostgreSQL og nå i PHP. Jeg er en person som liker å jobbe i team og har gode samarbeidsevner.`,
     picture: "images/NicolayBilde.JPG",
-    linkedin: "https://www.linkedin.com/in/nicolay-lehne-torp-14b62a2ba/"
+    linkedin: "https://www.linkedin.com/in/nicolay-lehne-torp-14b62a2ba/",
+    mail: "lehnenicolay@gmail.com",
+    tlf: "466 26 871"
   }
 ];
 
@@ -89,10 +99,16 @@ function renderMembers() {
           ${m.description}
         </div>
       </text>
-      <a href="${m.linkedin}" target="_blank" class="linkedin">
-        <text>Linked</text>
-        <img src="images/LinkedIn_icon.svg">
-      </a>
+      <div class="kontaktinfo">
+        <a href="${m.linkedin}" target="_blank">
+          <div class="linkedin">
+            <text>Linked</text>
+            <img src="images/LinkedIn_icon.svg">
+          </div>
+        </a>
+        <text class="tlf_mail">${m.mail}</text>
+        <text class="tlf_mail">${m.tlf}</text>
+      </div>
     `;
     container.appendChild(div);
   });
