@@ -30,6 +30,7 @@ const members = [
     <br> Iløpet av prosjektene og innleveringer har jeg også erkjent gode erfaring med blant annet C#, Python, og Java.
     <br> Jeg trivdes godt med prosjektarbeid og gleder meg til bachelorprosjekt!
     `,
+    picture: "images/niri.jpg",
     linkedin: "https://www.linkedin.com/in/niri-a-lorentzen-409916381/"
   },
   {
