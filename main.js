@@ -48,7 +48,7 @@ const members = [
     description: `Hei, jeg er 21 år gammel og kommer fra Drammen. Jeg har lenge vært interessert i teknologi og programmering, 
     <br>og har erfaring med flere programmeringsspråk som Python, Java, C++ og jeg har også jobbet med webutvikling ved bruk av HTML, CSS og JavaScript.
     <br>Jeg studerer nå IT og Informasjonssystemer ved Universitetet i Agder, hvor jeg har fått muligheten til å jobbe med ulike prosjekter som har styrket mine ferdigheter innen backend-utvikling. 
-    <br>Jeg er spesielt interessert i backend logikk, og ser frem til å bidra med min kunnskap og lære mer.`,
+    <br>Etter tidligere prosjekter, har det vist seg at jeg trives best med backend-utvikling.`,
     picture: "images/CarlBilde.JPG"
   },
   {
@@ -79,8 +79,30 @@ function renderMembers() {
   });
 }
 
+
+
 // On DOMContentLoaded, inject navbar and render members if needed
 window.addEventListener('DOMContentLoaded', () => {
   injectNavbar();
   renderMembers();
+
+  const previewDiv = document.createElement('div');
+  previewDiv.className = 'picture-preview';
+  document.body.appendChild(previewDiv);
+
+  // Only show preview on image click
+  document.addEventListener('click', function(e) {
+    // Image clicked; show preview
+    if (e.target.tagName === 'IMG' && e.target.alt.startsWith('Bilde av')) {
+      previewDiv.innerHTML = `<img src="${e.target.src}" alt="${e.target.alt}">`;
+      previewDiv.style.display = 'block';
+    } else if (
+      previewDiv.style.display === 'block' &&
+      !previewDiv.contains(e.target)
+    ) {
+      // Clicked outside preview; hide it
+      previewDiv.style.display = 'none';
+      previewDiv.innerHTML = '';
+    }
+  });
 });
