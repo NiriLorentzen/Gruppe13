@@ -21,16 +21,16 @@ function injectNavbar() {
 // Members data for medlemmer.html
 const members = [
   {
+    name: "Niri",
+    role: "Prosjektleder",
+    description: "",
+    picture: "images/niri.jpg"
+  },
+  {
     name: "Eivind",
     role: "Frontend utvikler",
     description: "Går på UiA, IT og Informasjonssystemer",
     picture: "images/EivindProfBilde.jpg"
-  },
-  {
-    name: "Niri",
-    role: "Frontend utvikler",
-    description: "Går på UiA, IT og Informasjonssystemer",
-    picture: "images/niri.jpg"
   },
   {
     name: "William",
