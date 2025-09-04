@@ -24,7 +24,8 @@ const members = [
     name: "Niri",
     role: "Prosjektleder",
     description: "",
-    picture: "images/niri.jpg"
+    picture: "images/niri.jpg",
+    linkedin: "https://www.linkedin.com/in/niri-a-lorentzen-409916381/"
   },
   {
     name: "Eivind",
@@ -34,13 +35,15 @@ const members = [
     <br> Dette ble gjort med bruk av teknologi som: Java, C#, Python, PostgreSQL og nå også PHP. 
     <br> Jeg har fått en spesiell interesse for optimalisering av programmer etter at tidligere prosjekter har vist meg hvor viktig og interessant dette virkelig er. 
     <br> Videre har jeg også god erfaring med teambygging og formidlingsevne fra tidligere utdanning og jobb.`,
-    picture: "images/EivindProfBilde.jpg"
+    picture: "images/EivindProfBilde.jpg",
+    linkedin: "https://www.linkedin.com/in/eivind-hovden-breivik-979241381/"
   },
   {
     name: "William",
     role: "Frontend utvikler",
     description: "Går på UiA, IT og Informasjonssystemer",
-    picture: "images/williamj.jpg"
+    picture: "images/williamj.jpg",
+    linkedin: "https://www.linkedin.com/in/william-jondahl-22b571382/"
   },
   {
     name: "Carl",
@@ -49,13 +52,15 @@ const members = [
     <br>og har erfaring med flere programmeringsspråk som Python, Java, C++ og jeg har også jobbet med webutvikling ved bruk av HTML, CSS og JavaScript.
     <br>Jeg studerer nå IT og Informasjonssystemer ved Universitetet i Agder, hvor jeg har fått muligheten til å jobbe med ulike prosjekter som har styrket mine ferdigheter innen backend-utvikling. 
     <br>Etter tidligere prosjekter, har det vist seg at jeg trives best med backend-utvikling.`,
-    picture: "images/CarlBilde.JPG"
+    picture: "images/CarlBilde.JPG",
+    linkedin: "https://www.linkedin.com/in/carl-andreas-arnegard-993996214/"
   },
   {
     name: "Nicolay",
     role: "Frontend utvikler",
     description: "Går på UiA, IT og Informasjonssystemer",
-    picture: "images/NicolayBilde.JPG"
+    picture: "images/NicolayBilde.JPG",
+    linkedin: "https://www.linkedin.com/in/nicolay-lehne-torp-14b62a2ba/"
   }
 ];
 
@@ -67,14 +72,17 @@ function renderMembers() {
     const div = document.createElement('div');
     div.className = 'medlem_instans';
     div.innerHTML = `
-      <img src="${m.picture}" alt="Bilde av ${m.name}">
+      <img class="Personbilde" src="${m.picture}" alt="Bilde av ${m.name}">
       <text class="medlem_instans_tekst_boks">
         <div>
           <p><strong>${m.name}</strong> – <em>${m.role}</em></p>
           ${m.description}
         </div>
       </text>
-      <text class="linkedin">Linkedin</text>
+      <a href="${m.linkedin}" target="_blank" class="linkedin">
+        <text>Linked</text>
+        <img src="images/LinkedIn_icon.svg">
+      </a>
     `;
     container.appendChild(div);
   });
